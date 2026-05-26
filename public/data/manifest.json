@@ -2,7 +2,7 @@
   "dataRoot": "https://huggingface.co/datasets/TAG-Nav/DestBench",
   "hfDataset": "TAG-Nav/DestBench",
   "hfRevision": "main",
-  "totalTasks": 91,
+  "totalTasks": 84,
   "totalApps": 6,
   "apps": [
     {
@@ -26,7 +26,7 @@
       "app": "clock",
       "appDisplay": "Clock",
       "version": "8.5",
-      "taskCount": 12,
+      "taskCount": 9,
       "logoSlug": "google"
     },
     {
@@ -42,7 +42,7 @@
       "app": "settings",
       "appDisplay": "Settings",
       "version": "16",
-      "taskCount": 13,
+      "taskCount": 9,
       "logoSlug": "android"
     },
     {
@@ -1459,73 +1459,6 @@
       "imageHeight": 2142
     },
     {
-      "id": "clock_8.5/run_018_clock",
-      "app": "clock",
-      "appDisplay": "Clock",
-      "version": "8.5",
-      "task": "run_018_clock",
-      "prompt": "Navigate to the page to change the temperature unit.",
-      "prompts": [
-        "Navigate to the page to change the temperature unit.",
-        "Navigate to the page that allows changing temperature units from Celsius to Fahrenheit."
-      ],
-      "frames": [
-        "frame_000000_start_normal.png",
-        "frame_000001_after_tap_normal.png",
-        "frame_000002_after_tap_normal.png",
-        "frame_000003_after_scroll_normal.png",
-        "frame_000004_after_scroll_normal.png",
-        "frame_000005_after_scroll_normal.png",
-        "frame_000006_after_tap_normal.png"
-      ],
-      "actions": [
-        {
-          "step": 0,
-          "type": "action",
-          "action": "tap",
-          "x": 903,
-          "y": 224,
-          "t": 1770663504.237894
-        },
-        {
-          "step": 1,
-          "type": "action",
-          "action": "tap",
-          "x": 630,
-          "y": 474,
-          "t": 1770663514.3326738
-        },
-        {
-          "step": 2,
-          "type": "action",
-          "action": "scroll_down",
-          "t": 1770663541.9139924
-        },
-        {
-          "step": 3,
-          "type": "action",
-          "action": "scroll_down",
-          "t": 1770663553.3846145
-        },
-        {
-          "step": 4,
-          "type": "action",
-          "action": "scroll_down",
-          "t": 1770663564.548614
-        },
-        {
-          "step": 5,
-          "type": "action",
-          "action": "tap",
-          "x": 180,
-          "y": 1536,
-          "t": 1770663576.0106773
-        }
-      ],
-      "imageWidth": 960,
-      "imageHeight": 2142
-    },
-    {
       "id": "clock_8.5/run_019_clock",
       "app": "clock",
       "appDisplay": "Clock",
@@ -1596,85 +1529,6 @@
           "x": 687,
           "y": 583,
           "t": 1770664027.420781
-        }
-      ],
-      "imageWidth": 960,
-      "imageHeight": 2142
-    },
-    {
-      "id": "clock_8.5/run_022_clock",
-      "app": "clock",
-      "appDisplay": "Clock",
-      "version": "8.5",
-      "task": "run_022_clock",
-      "prompt": "Navigate to the page to view weather insights.",
-      "prompts": [
-        "Navigate to the page to view weather insights.",
-        "Navigate to the page that displays weather insights and analysis.",
-        "Navigate to the page that provides an AI-generated weather report.",
-        "Navigate to the page to view the hourly weather forecast."
-      ],
-      "frames": [
-        "frame_000000_start_normal.png",
-        "frame_000001_after_tap_normal.png"
-      ],
-      "actions": [
-        {
-          "step": 0,
-          "type": "action",
-          "action": "tap",
-          "x": 880,
-          "y": 707,
-          "t": 1770664112.995681
-        }
-      ],
-      "imageWidth": 960,
-      "imageHeight": 2142
-    },
-    {
-      "id": "clock_8.5/run_023_clock",
-      "app": "clock",
-      "appDisplay": "Clock",
-      "version": "8.5",
-      "task": "run_023_clock",
-      "prompt": "Navigate to the page to toggle displaying daily device usage in bedtime information.",
-      "prompts": [
-        "Navigate to the page to toggle displaying daily device usage in bedtime information.",
-        "Navigate to the page where bedtime data can be deleted.",
-        "Navigate to the page used to delete stored bedtime data.",
-        "Navigate to the bedtime settings page that controls sensor data display (e.g., light detection) during scheduled bedtime hours.",
-        "Navigate to the page to manage data of the bedtime."
-      ],
-      "frames": [
-        "frame_000000_start_normal.png",
-        "frame_000001_after_tap_normal.png",
-        "frame_000002_after_tap_normal.png",
-        "frame_000003_after_tap_normal.png"
-      ],
-      "actions": [
-        {
-          "step": 0,
-          "type": "action",
-          "action": "tap",
-          "x": 871,
-          "y": 2000,
-          "t": 1770664299.3376055
-        },
-        {
-          "step": 1,
-          "type": "action",
-          "action": "tap",
-          "x": 865,
-          "y": 930,
-          "t": 1770664310.4635878
-        },
-        {
-          "step": 2,
-          "type": "action",
-          "action": "tap",
-          "x": 595,
-          "y": 1060,
-          "t": 1770664321.7326002
         }
       ],
       "imageWidth": 960,
@@ -2942,51 +2796,6 @@
       "imageHeight": 2142
     },
     {
-      "id": "settings_16/run_002_settings",
-      "app": "settings",
-      "appDisplay": "Settings",
-      "version": "16",
-      "task": "run_002_settings",
-      "prompt": "Navigate to the page for troubleshooting mobile network connection issues.",
-      "prompts": [
-        "Navigate to the page for troubleshooting mobile network connection issues.",
-        "Navigate to the system settings page used to troubleshoot mobile data connection problems.",
-        "Navigate to the page providing tips and recommendations to improve mobile network connectivity."
-      ],
-      "frames": [
-        "frame_000000_start_normal.png",
-        "frame_000001_after_scroll_normal.png",
-        "frame_000002_after_tap_normal.png",
-        "frame_000003_after_tap_normal.png"
-      ],
-      "actions": [
-        {
-          "step": 0,
-          "type": "action",
-          "action": "scroll_up",
-          "t": 1770392935.9696925
-        },
-        {
-          "step": 1,
-          "type": "action",
-          "action": "tap",
-          "x": 271,
-          "y": 841,
-          "t": 1770392949.7185445
-        },
-        {
-          "step": 2,
-          "type": "action",
-          "action": "tap",
-          "x": 215,
-          "y": 1686,
-          "t": 1770392964.096556
-        }
-      ],
-      "imageWidth": 960,
-      "imageHeight": 2142
-    },
-    {
       "id": "settings_16/run_003_settings",
       "app": "settings",
       "appDisplay": "Settings",
@@ -3176,117 +2985,6 @@
       "imageHeight": 2142
     },
     {
-      "id": "settings_16/run_008_settings",
-      "app": "settings",
-      "appDisplay": "Settings",
-      "version": "16",
-      "task": "run_008_settings",
-      "prompt": "Navigate to the page to change the screen color settings from Natural to Adaptive.",
-      "prompts": [
-        "Navigate to the page to change the screen color settings from Natural to Adaptive.",
-        "Navigate to the display settings page where screen color mode can be changed from Natural to Adaptive.",
-        "Navigate to the page for adjusting screen color modes, such as Natural and Adaptive."
-      ],
-      "frames": [
-        "frame_000000_start_normal.png",
-        "frame_000001_after_tap_normal.png",
-        "frame_000002_after_scroll_normal.png",
-        "frame_000003_after_scroll_normal.png",
-        "frame_000004_after_tap_normal.png"
-      ],
-      "actions": [
-        {
-          "step": 0,
-          "type": "action",
-          "action": "tap",
-          "x": 213,
-          "y": 1898,
-          "t": 1770395093.5295005
-        },
-        {
-          "step": 1,
-          "type": "action",
-          "action": "scroll_down",
-          "t": 1770395111.0048292
-        },
-        {
-          "step": 2,
-          "type": "action",
-          "action": "scroll_down",
-          "t": 1770395127.6864755
-        },
-        {
-          "step": 3,
-          "type": "action",
-          "action": "tap",
-          "x": 116,
-          "y": 1321,
-          "t": 1770395145.6536129
-        }
-      ],
-      "imageWidth": 960,
-      "imageHeight": 2142
-    },
-    {
-      "id": "settings_16/run_009_settings",
-      "app": "settings",
-      "appDisplay": "Settings",
-      "version": "16",
-      "task": "run_009_settings",
-      "prompt": "Navigate to the page to change the screen resolution.",
-      "prompts": [
-        "Navigate to the page to change the screen resolution.",
-        "Navigate to the display settings page where screen resolution can be adjusted.",
-        "Navigate to the page that allows setting the display resolution to its highest option."
-      ],
-      "frames": [
-        "frame_000000_start_normal.png",
-        "frame_000001_after_tap_normal.png",
-        "frame_000002_after_scroll_normal.png",
-        "frame_000003_after_scroll_normal.png",
-        "frame_000004_after_scroll_normal.png",
-        "frame_000005_after_tap_normal.png"
-      ],
-      "actions": [
-        {
-          "step": 0,
-          "type": "action",
-          "action": "tap",
-          "x": 242,
-          "y": 1919,
-          "t": 1770395240.95039
-        },
-        {
-          "step": 1,
-          "type": "action",
-          "action": "scroll_down",
-          "t": 1770395256.4315712
-        },
-        {
-          "step": 2,
-          "type": "action",
-          "action": "scroll_down",
-          "t": 1770395381.5824454
-        },
-        {
-          "step": 3,
-          "type": "action",
-          "action": "scroll_down",
-          "t": 1770395392.165444
-        },
-        {
-          "step": 4,
-          "type": "action",
-          "action": "tap",
-          "x": 158,
-          "y": 1834,
-          "t": 1770395403.6884444
-        }
-      ],
-      "imageWidth": 960,
-      "imageHeight": 2142
-    },
-    {
       "id": "settings_16/run_010_settings",
       "app": "settings",
       "appDisplay": "Settings",
@@ -3319,53 +3017,6 @@
           "x": 201,
           "y": 1194,
           "t": 1770395531.474579
-        }
-      ],
-      "imageWidth": 960,
-      "imageHeight": 2142
-    },
-    {
-      "id": "settings_16/run_011_settings",
-      "app": "settings",
-      "appDisplay": "Settings",
-      "version": "16",
-      "task": "run_011_settings",
-      "prompt": "Navigate to the page to toggle the \u201cUse connected cameras\u201d setting.",
-      "prompts": [
-        "Navigate to the page to toggle the \u201cUse connected cameras\u201d setting.",
-        "Navigate to the system settings page where connected camera usage can be enabled or disabled.",
-        "Navigate to the help or information page listing devices compatible as remote cameras."
-      ],
-      "frames": [
-        "frame_000000_start_normal.png",
-        "frame_000001_after_tap_normal.png",
-        "frame_000002_after_tap_normal.png",
-        "frame_000003_after_tap_normal.png"
-      ],
-      "actions": [
-        {
-          "step": 0,
-          "type": "action",
-          "action": "tap",
-          "x": 268,
-          "y": 1030,
-          "t": 1770395893.4995196
-        },
-        {
-          "step": 1,
-          "type": "action",
-          "action": "tap",
-          "x": 282,
-          "y": 1201,
-          "t": 1770395906.6665285
-        },
-        {
-          "step": 2,
-          "type": "action",
-          "action": "tap",
-          "x": 313,
-          "y": 1367,
-          "t": 1770395919.8885167
         }
       ],
       "imageWidth": 960,
