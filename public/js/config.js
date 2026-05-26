@@ -18,7 +18,7 @@ function detectBase() {
   return "/";
 }
 
-const DEFAULT_HF_DATASET = "tag-nav-authors/DestBench";
+const DEFAULT_HF_DATASET = "TAG-Nav/DestBench";
 
 function detectHuggingFaceDataset() {
   const meta = document.querySelector('meta[name="hf-dataset"]');

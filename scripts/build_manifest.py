@@ -15,7 +15,7 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-HF_DATASET = os.environ.get("HF_DATASET", "tag-nav-authors/DestBench")
+HF_DATASET = os.environ.get("HF_DATASET", "TAG-Nav/DestBench")
 
 ALLOWED_APPS = frozenset(
     {"settings", "clock", "youtube", "google_maps", "calendar", "amazon"}

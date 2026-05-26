@@ -1,6 +1,6 @@
 {
-  "dataRoot": "https://huggingface.co/datasets/tag-nav-authors/DestBench",
-  "hfDataset": "tag-nav-authors/DestBench",
+  "dataRoot": "https://huggingface.co/datasets/TAG-Nav/DestBench",
+  "hfDataset": "TAG-Nav/DestBench",
   "hfRevision": "main",
   "totalTasks": 91,
   "totalApps": 6,

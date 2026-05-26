@@ -3,7 +3,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-export HF_DATASET="${HF_DATASET:-tag-nav-authors/DestBench}"
+export HF_DATASET="${HF_DATASET:-TAG-Nav/DestBench}"
 export HF_REVISION="${HF_REVISION:-main}"
 
 python3 "$ROOT/scripts/build_manifest.py"

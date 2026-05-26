@@ -1,6 +1,6 @@
 # Host DestBench showcase on GitHub Pages
 
-Your site is static (`public/`). Screenshots load from [tag-nav-authors/DestBench](https://huggingface.co/datasets/tag-nav-authors/DestBench) on Hugging Face.
+Your site is static (`public/`). Screenshots load from [TAG-Nav/DestBench](https://huggingface.co/datasets/TAG-Nav/DestBench) on Hugging Face.
 
 ## Prerequisites
 
@@ -106,7 +106,7 @@ GitHub Actions redeploys automatically.
 
 | Name | Value |
 |------|--------|
-| `HF_DATASET` | `tag-nav-authors/DestBench` |
+| `HF_DATASET` | `TAG-Nav/DestBench` |
 | `HF_REVISION` | `main` |
 
 Defaults already match; only change if you move the dataset.
@@ -128,7 +128,7 @@ Screenshots are fetched from Hugging Face in the browser.
 |---------|-----|
 | Actions workflow failed | Open the failed run → read logs; ensure `pip install huggingface_hub` step succeeds |
 | 404 on Pages | Confirm **Source** is **GitHub Actions**, not “Deploy from branch” without a workflow |
-| Trajectories don’t load images | Check `hf-dataset` meta is `tag-nav-authors/DestBench`; test a [resolve URL](https://huggingface.co/datasets/tag-nav-authors/DestBench/tree/main) |
+| Trajectories don’t load images | Check `hf-dataset` meta is `TAG-Nav/DestBench`; test a [resolve URL](https://huggingface.co/datasets/TAG-Nav/DestBench/tree/main) |
 | Broken layout / no CSS | Add `site-base` meta (Step 5) |
 | Old app list | Push latest `public/data/manifest.json` or let CI rebuild manifest |
 

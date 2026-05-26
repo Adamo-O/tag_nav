@@ -10,7 +10,7 @@
 
 set -euo pipefail
 
-HF_DATASET="${HF_DATASET:?Set HF_DATASET=user/repo (e.g. tag-nav-authors/DestBench)}"
+HF_DATASET="${HF_DATASET:?Set HF_DATASET=user/repo (e.g. TAG-Nav/DestBench)}"
 DATA="${AGENT_NAV_DATA:?Set AGENT_NAV_DATA=/path/to/DATA}"
 
 if ! command -v huggingface-cli &>/dev/null; then

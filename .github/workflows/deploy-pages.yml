@@ -38,7 +38,7 @@ jobs:
           p.write_text(html)
           PY
         env:
-          HF_DATASET: tag-nav-authors/DestBench
+          HF_DATASET: TAG-Nav/DestBench
           HF_REVISION: main
 
       - name: Setup Pages

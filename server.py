@@ -13,7 +13,7 @@ from urllib.parse import unquote, urlparse
 ROOT = Path(__file__).resolve().parent
 PUBLIC = ROOT / "public"
 MANIFEST = PUBLIC / "data" / "manifest.json"
-HF_DATASET = os.environ.get("HF_DATASET", "tag-nav-authors/DestBench")
+HF_DATASET = os.environ.get("HF_DATASET", "TAG-Nav/DestBench")
 
 ALLOWED_APPS = frozenset(
     {"settings", "clock", "youtube", "google_maps", "calendar", "amazon"}

@@ -1,6 +1,6 @@
 # DestBench Dataset Showcase
 
-Showcase website for the DestBench mobile navigation dataset ([Hugging Face](https://huggingface.co/datasets/tag-nav-authors/DestBench)).
+Showcase website for the DestBench mobile navigation dataset ([Hugging Face](https://huggingface.co/datasets/TAG-Nav/DestBench)).
 
 ## Features
 
@@ -9,7 +9,7 @@ Showcase website for the DestBench mobile navigation dataset ([Hugging Face](htt
 - **App grid** — logos and task picker
 - **Statistics** — tasks per application
 
-All **screenshots** are loaded from Hugging Face (`tag-nav-authors/DestBench`). Task metadata lives in `public/data/manifest.json` (built from the same Hub repo). The showcase includes six apps: Settings, Clock, YouTube, Google Maps, Calendar, and Amazon.
+All **screenshots** are loaded from Hugging Face (`TAG-Nav/DestBench`). Task metadata lives in `public/data/manifest.json` (built from the same Hub repo). The showcase includes six apps: Settings, Clock, YouTube, Google Maps, Calendar, and Amazon.
 
 ## Quick start
 
@@ -29,7 +29,7 @@ python server.py
 
 | Variable | Default |
 |----------|---------|
-| `HF_DATASET` | `tag-nav-authors/DestBench` |
+| `HF_DATASET` | `TAG-Nav/DestBench` |
 | `HF_REVISION` | `main` |
 | `PORT` | `8080` |
 
